@@ -1,0 +1,541 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.fun-game {
+  width: 100%;
+  height: 114.3rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.fun-game .logo-background {
+  width: 144rem;
+  height: 81.3rem;
+  position: absolute;
+  left: 0;
+  top: 20.4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.fun-game .all-content {
+  width: 145.5rem;
+  height: 199.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(179.71deg, #f0f0f0 7.71%, rgba(0, 0, 0, 0) 98.31%);
+}
+.fun-game .all-content-2 {
+  width: 144rem;
+  height: 4.6rem;
+  position: absolute;
+  left: 0;
+  top: 109.7rem;
+  box-shadow: 0.5rem 1.1rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 1rem 1rem 0 0;
+}
+.fun-game .footer-copyright {
+  width: 29.3rem;
+  height: 1.9rem;
+  position: absolute;
+  left: 57.6rem;
+  top: 111rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .footer-content {
+  width: 144rem;
+  height: 14.4rem;
+  position: absolute;
+  left: 0;
+  top: 95.2rem;
+  background-color: #ae131a;
+  border-radius: 1rem 1rem 0 0;
+}
+.fun-game .footer-center {
+  width: 43.3rem;
+  height: 4.7rem;
+  position: absolute;
+  left: 50.9rem;
+  top: 100.65rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .footer-right {
+  width: 21.5rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 112.5rem;
+  top: 99.15rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .footer-left {
+  width: 12.1rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 14.7rem;
+  top: 99.15rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .phone {
+  width: 20.4rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 14.7rem;
+  top: 102.45rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .email {
+  width: 25.3rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 14.7rem;
+  top: 104.75rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .instagram-s7E {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  left: 117.4rem;
+  top: 102.25rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .twitter-bov {
+  width: 3.8rem;
+  height: 3.8686rem;
+  position: absolute;
+  left: 112.5rem;
+  top: 102.35rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .facebook-j9S {
+  width: 3.9rem;
+  height: 3.8686rem;
+  position: absolute;
+  left: 122.5rem;
+  top: 102.25rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .facebook-4hW {
+  width: 1.6rem;
+  height: 3.1652rem;
+  position: absolute;
+  left: 123.7rem;
+  top: 102.9534rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .logo-footer {
+  width: 5.8rem;
+  height: 5.8rem;
+  position: absolute;
+  left: 6.7rem;
+  top: 99.15rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.fun-game .kata {
+  width: 73.7rem;
+  height: 16.5rem;
+  position: absolute;
+  left: 33.4rem;
+  top: 61.4rem;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+}
+.fun-game .image-content {
+  width: 74.4rem;
+  height: 36.5rem;
+  position: absolute;
+  left: 33.4rem;
+  top: 23.5rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.fun-game .share {
+  width: 8.8rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 10.7rem;
+  top: 32.9rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .line-2-HMJ {
+  width: 8.4rem;
+  height: 0;
+  position: absolute;
+  left: 11.1rem;
+  top: 36.7rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .line-2-2Jt {
+  width: 8.4rem;
+  height: 0;
+  position: absolute;
+  left: 11.1rem;
+  top: 36.7rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .share-mXN {
+  width: 8.8rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 10.7rem;
+  top: 32.9rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .telegram-app-t6C {
+  width: 4.6rem;
+  height: 4.2rem;
+  position: absolute;
+  left: 12.9rem;
+  top: 43.8rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .whatsapp-1wW {
+  width: 4.7rem;
+  height: 5.8rem;
+  position: absolute;
+  left: 13rem;
+  top: 38.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .header {
+  width: 122.6rem;
+  height: 5.75rem;
+  position: absolute;
+  left: 10rem;
+  top: 14.5rem;
+}
+.fun-game .header .header-fun-game {
+  width: 38.3rem;
+  height: 5.7rem;
+  position: absolute;
+  left: 0.3rem;
+  top: 0;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #1877f2;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.fun-game .header .header-line {
+  position: absolute;
+  left: 0;
+  top: 5.6461rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .telegram-app-XoN {
+  width: 4.6rem;
+  height: 4.2rem;
+  position: absolute;
+  left: 12.9rem;
+  top: 43.8rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .whatsapp-TS8 {
+  width: 4.7rem;
+  height: 5.8rem;
+  position: absolute;
+  left: 13rem;
+  top: 38.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.fun-game .header-navbar {
+  width: 123.4rem;
+  height: 5.6rem;
+  position: absolute;
+  left: 10.3rem;
+  top: 3.9rem;
+  display: flex;
+  align-items: center;
+}
+.fun-game .header-navbar .icon-header {
+  margin-right: 1.2rem;
+  width: 5.9rem;
+  height: 5.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.fun-game .header-navbar .ukm-hockey-pancasila-qha {
+  margin: 1.4rem 24.2rem 0rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #1877f2;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.fun-game .header-navbar .navbar-tentang-kami {
+  margin: 0.6rem 4.4rem 0rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: flex;
+}
+.fun-game .header-navbar .navbar-join {
+  margin-top: 0.6rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.fun-game .header-navbar .navbar-group {
+  box-sizing: border-box;
+  padding: 2.1rem 0rem 1.3rem 5.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.fun-game .header-navbar .navbar-group .navbar-group-2 {
+  margin-right: 5.6rem;
+  width: 5.5rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.fun-game .header-navbar .navbar-group .navbar-group-2 .navbar-event {
+  margin-left: 0.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.fun-game .header-navbar .navbar-group .navbar-group-2 .rectangle-1-ZZ2 {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #1877f2;
+  border-radius: 10rem;
+  flex-shrink: 0;
+}
+.fun-game .header-navbar .navbar-group .navbar-visi-misi {
+  margin: 0rem 4.7rem 0.2rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.fun-game .header-navbar .navbar-group .navbar-seputar-jadwal {
+  margin-bottom: 0.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+body {
+  overflow-x: scroll;
+}
+
+.navbar-seputar-jadwal {
+  /* ... Your existing styles ... */
+  position: relative;
+}
+
+.navbar-seputar-jadwal .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%; /* Position below the text */
+  left: 0; /* Align with the left edge of the text */
+}
+
+.navbar-seputar-jadwal:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: #2b00ff;}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.navbar-event {
+  /* ... Your existing styles ... */
+  position: relative;
+}
+
+.navbar-event .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%; /* Position below the text */
+  left: 0; /* Align with the left edge of the text */
+}
+
+.navbar-event:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-tentang-kami {
+  /* ... Your existing styles ... */
+  position: relative;
+}
+
+.navbar-tentang-kami .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%; /* Position below the text */
+  left: 0; /* Align with the left edge of the text */
+}
+
+.navbar-tentang-kami:hover .dropdown-content {
+  display: block;
+}
+
+.fun-game .social-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #1877f2;
+  font-size: 2rem;
+  top: 104.5rem;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: background-color 0.3s;
+}
+
+.fun-game .social-icon i {
+  font-size: 2.5rem;
+}
+
+.fun-game .social-icon:hover {
+  background-color: #1877f2;
+  color: #ffffff;
+}
+
+.footer-right a {
+  font-size: 32px;
+  text-decoration: none;
+  color: wheat;
+}
+
+.share a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.share p {
+  font-size: 32px;
+  text-decoration: none;
+  color: #1877f2;
+}

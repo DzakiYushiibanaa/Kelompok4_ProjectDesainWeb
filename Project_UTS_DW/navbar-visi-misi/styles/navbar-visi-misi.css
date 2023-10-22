@@ -1,0 +1,281 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F1F1;
+  background-size: cover;
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+}
+
+nav div img {
+width: 80px;
+}
+
+.Hockey {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  gap: 1rem;
+  color: #1877F2;
+  font-family:'Manjari', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  z-index: 9999;
+  flex: 1;
+  margin: 10px;
+  max-width: 1300px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.logo{
+  display: flex;
+  margin: 10px;
+}
+
+.logo img{
+  margin-top: 60px;
+  width: 55px;
+  height: 55px;
+}
+
+.logo h4{
+  font-size: 20px;
+  margin-left: 10px;
+  color: #1877F2;
+  margin-bottom: 60px;
+}
+
+.container-dropdown ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-dropdown ul li {
+  display: inline-block;
+  position: relative;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.container-dropdown ul li a{
+  display: block;
+  padding: 20px 25px;
+  color: black;
+  text-decoration: none;
+  margin: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.container-dropdown ul li ul.dropdown1 li{
+  display: block;
+}
+
+.container-dropdown ul li ul.dropdown1{
+  width: 100%;
+  position: absolute;
+  padding-left: 0px;
+  z-index: 999;
+  display: none;
+  background-color: #279EFF;
+  border-radius: 10px;
+}
+
+.container-dropdown ul li:hover ul.dropdown1{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  min-width: 200px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px -1px #1877F2;
+  
+}
+
+
+.container-dropdown ul li ul.dropdown2 li{
+  display: block;
+}
+
+.container-dropdown ul li ul.dropdown2{
+  width: 100%;
+  position: absolute;
+  padding-left: 0px;
+  z-index: 999;
+  display: none;
+  background-color: #279EFF;
+  border-radius: 10px;
+}
+
+.container-dropdown ul li:hover ul.dropdown2{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  min-width: 200px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px -1px #1877F2;
+}
+
+.container-dropdown ul li ul.dropdown3 li{
+  display: block;
+  
+}
+
+.container-dropdown ul li ul.dropdown3{
+  width: 100%;
+  position: absolute;
+  padding-left: 0px;
+  z-index: 999;
+  display: none;
+  background-color: #279EFF;
+  border-radius: 10px;
+}
+
+.container-dropdown ul li:hover ul.dropdown3{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  min-width: 200px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px -1px #1877F2;
+}
+
+.container-dropdown ul li ul li a:hover{
+  padding-left: 10px;
+  border-bottom: 2px dashed #FFD966;
+  transition: all 0.2s ease;
+}
+
+.container-dropdown ul li ul li a{
+  transition: all 0.3s ease;
+}
+
+.container-dropdown ul li a:hover{
+  text-decoration: underline;
+  color: #F8DE22;
+}
+
+.container-dropdown ul li a:active{
+  color: red;
+}
+
+
+.visimisi {
+  padding: 3rem 3rem;
+  color: #1877F2;
+  font-weight: 500;
+  font-family: 'Manjari', sans-serif;
+}
+
+div h3 {
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 7rem;
+  font-family: 'Manjari', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.VISI {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  padding: 0 15rem;
+  font-weight: 200;
+  font-size: 35px;
+  padding-bottom: 8rem;
+  background-color: #1877F2;
+}
+
+div h4 {
+  color: #1877F2;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 5rem;
+  font-family: 'Manjari', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+
+.logo1 {
+  float: left;
+  width: 15%;
+  padding-left: 4rem;
+}
+
+.satu {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 65%;
+  font-family:'Manjari', sans-serif;
+  color: #1877F2;
+  left: 5%;
+  }
+  
+.logo2 {
+  position: relative;
+  float: right;
+  width: 8%;
+}
+
+.dua {
+  position: relative;
+  width: 70%;
+  font-family:'Manjari', sans-serif;
+  align-items: center;
+  display: flex;
+  color: #1877F2;
+  left: 50% ;
+}
+
+.logo3 {
+  float: left;
+  width: 14%;
+  padding-left: 4rem;
+}
+
+.tiga {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  font-family:'Manjari', sans-serif;
+  color: #1877F2;
+  left: 5%;
+}
+
+.logo4 {
+  position: relative;
+  float: right;
+  width: 8%;
+}
+
+.empat {
+  position: relative;
+  width: 70%;
+  font-family:'Manjari', sans-serif;
+  align-items: center;
+  display: flex;
+  color: #1877F2;
+  left: 45% ;
+  padding-right: 2rem;
+}

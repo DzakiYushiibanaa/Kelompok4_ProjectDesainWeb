@@ -1,0 +1,522 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+
+input {
+	border: none;
+}
+
+body {
+  width: 144rem;
+}
+.all-content {
+  width: 100%;
+  height: 114.3rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #dddddde3;
+}
+.all-content .box-header {
+  width: 144rem;
+  height: 19.6rem;
+  position: absolute;
+  left: 0;
+  top: 3.9rem;
+  box-shadow: 0.5rem 1.1rem 1rem rgba(0, 0, 0, 0.25);
+  border-radius: 1rem 1rem 0 0;
+  -webkit-border-radius: 1rem 1rem 0 0;
+  -moz-border-radius: 1rem 1rem 0 0;
+  -ms-border-radius: 1rem 1rem 0 0;
+  -o-border-radius: 1rem 1rem 0 0;
+}
+
+.all-content .ukm {
+  width: 44.4rem;
+  height: 5.7rem;
+  position: absolute;
+  left: 3.2rem;
+  top: 8.7rem;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.all-content .navbar-join {
+  width: 15.8rem;
+  height: 2rem;
+  position: absolute;
+  left: 77rem;
+  top: 9.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  text-decoration: none;
+}
+.all-content .navbar-visi-misi {
+  width: 8.2rem;
+  height: 2rem;
+  position: absolute;
+  left: 102rem;
+  top: 9.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  text-decoration: none;
+}
+.all-content .kata {
+  width: 69.7rem;
+  height: 15.4rem;
+  position: absolute;
+  left: 9.6rem;
+  top: 25.9rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+}
+
+.all-content .submit {
+  width: 20rem;
+  height: 3rem;
+  position: absolute;
+  left: 35rem;
+  top: 69.9rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.all-content .join {
+  width: 2.6rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 53rem;
+  top: 74.8rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.all-content .forgot-password {
+  width: 11.9rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 30.9rem;
+  top: 74.8rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.all-content .facebook-vkQ {
+  width: 1.6rem;
+  height: 3.1652rem;
+  position: absolute;
+  left: 123.7rem;
+  top: 102.9534rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.all-content .logo-1 {
+  width: 41.2rem;
+  height: 41.2rem;
+  position: absolute;
+  left: 89.9rem;
+  top: 31.7rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.all-content .footer {
+  width: 144rem;
+  height: 19.1rem;
+  position: absolute;
+  left: 0;
+  top: 95.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.all-content .footer .footer-content {
+  margin-bottom: 0.1rem;
+  box-sizing: border-box;
+  padding: 3.95rem 10rem 2.45rem 6.7rem;
+  width: 100%;
+  height: 14.4rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0.5rem 1.1rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #ae131a;
+  border-radius: 1rem 1rem 0 0;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .logo-2 {
+  margin: 0rem 2.2rem 2.2rem 0rem;
+  width: 5.8rem;
+  height: 5.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .footer-content-2 {
+  margin-right: 10.9rem;
+  width: 25.3rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .footer-content-2 .contact {
+  margin-bottom: 0.9rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.all-content .footer .footer-content .footer-content-2 .contact-2 {
+  width: 100%;
+  height: 4.7rem;
+  position: relative;
+}
+.all-content .footer .footer-content .footer-content-2 .contact-2 .phone {
+  width: 20.4rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.all-content .footer .footer-content .footer-content-2 .contact-2 .email {
+  width: 25.3rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 2.3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.all-content .footer .footer-content .lets-try-join-hockey {
+  margin: 0rem 18.3rem 0.3rem 0rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .group-1 {
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .group-1 .follow-us {
+  margin-bottom: 0.7rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #ffffff;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .group-1 .group-2 {
+  display: flex;
+  column-gap: 1.1rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .group-1 .group-2 .twitter-CYp {
+  margin-top: 0.0686rem;
+  width: 3.8rem;
+  height: 3.8686rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .group-1 .group-2 .instagram-Xqz {
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.all-content .footer .footer-content .group-1 .group-2 .facebook-sex {
+  margin-bottom: 0.1314rem;
+  width: 3.9rem;
+  height: 3.8686rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.all-content .footer .copyright {
+  width: 100%;
+  height: 4.6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.5rem 1.1rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 1rem 1rem 0 0;
+  flex-shrink: 0;
+}
+.all-content .login {
+  width: 9.8rem;
+  height: 4.7rem;
+  position: absolute;
+  left: 39.5rem;
+  top: 48.3rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.all-content .username {
+  width: 30rem;
+  height: 5rem;
+  position: absolute;
+  left: 29.3rem;
+  top: 55.7rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: transparent;
+}
+.all-content .password {
+  width: 30rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 29.5rem;
+  top: 62.8rem;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #000000;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: transparent;
+}
+.all-content .navbar-event {
+  width: 14.6rem;
+  height: 4.8rem;
+  cursor: pointer;
+  position: absolute;
+  left: 85rem;
+  top: 8.1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #1b1414;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-content .navbar-seputar-jadwal {
+  width: 14.6rem;
+  height: 4.8rem;
+  cursor: pointer;
+  position: absolute;
+  left: 115rem;
+  top: 8.1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #1b1414;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-content .navbar-tentang-kami {
+  width: 14.6rem;
+  height: 4.8rem;
+  cursor: pointer;
+  position: absolute;
+  left: 57.4rem;
+  top: 8.1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.0975;
+  color: #1b1414;
+  font-family: Manjari, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-seputar-jadwal {
+  /* ... Your existing styles ... */
+  position: relative;
+}
+
+.navbar-seputar-jadwal .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%; /* Position below the text */
+  left: 0; /* Align with the left edge of the text */
+}
+
+.navbar-seputar-jadwal:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {background-color: #2b00ff;}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.navbar-event {
+  /* ... Your existing styles ... */
+  position: relative;
+}
+
+.navbar-event .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%; /* Position below the text */
+  left: 0; /* Align with the left edge of the text */
+}
+
+.navbar-event:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-tentang-kami {
+  /* ... Your existing styles ... */
+  position: relative;
+}
+
+.navbar-tentang-kami .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%; /* Position below the text */
+  left: 0; /* Align with the left edge of the text */
+}
+
+.navbar-tentang-kami:hover .dropdown-content {
+  display: block;
+}
+
+.group-2 a {
+  font-size: 32px;
+  text-decoration: none;
+  color: wheat;
+}
+
+.username,
+.password {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #000;
+}
+
+.all-content .navbar-tentang-kami:hover {
+  cursor: pointer;
+  color: blue; /* Change text color to blue */
+}
+
+.all-content .navbar-join:hover {
+  cursor: pointer;
+  color: blue; /* Change text color to blue */
+}
+
+.all-content .navbar-event:hover {
+  cursor: pointer;
+  color: blue; /* Change text color to blue */
+}
+
+.all-content .navbar-visi-misi:hover {
+  cursor: pointer;
+  color: blue; /* Change text color to blue */
+}
+
+.all-content .navbar-seputar-jadwal:hover {
+  cursor: pointer;
+  color: blue; /* Change text color to blue */
+}
